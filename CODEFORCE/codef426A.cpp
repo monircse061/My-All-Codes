@@ -1,0 +1,132 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string s,s1;
+    int n,sum;
+    cin>>s;
+    cin>>s1;
+    scanf("%d",&n);
+    sum=n%4;
+    if(n%4==0)
+    {
+        printf("undefined");
+    }
+    else if(s[0]=='>')
+    {
+        if(sum==1)
+        {
+            if(s1[0]=='^')
+            {
+                printf("ccw");
+            }
+            else
+            {
+                printf("cw");
+            }
+        }
+        else if(sum==3)
+        {
+            if(s1[0]=='^')
+            {
+                printf("cw");
+            }
+            else
+            {
+                printf("ccw");
+            }
+        }
+        else
+        {
+            printf("undefined");
+        }
+    }
+    else if(s[0]=='^')
+    {
+        if(sum==1)
+        {
+            if(s1[0]=='>')
+            {
+                printf("cw");
+            }
+            else
+            {
+                printf("ccw");
+            }
+        }
+        else if(sum==3)
+        {
+            if(s1[0]=='>')
+            {
+                printf("ccw");
+            }
+            else
+            {
+                printf("cw");
+            }
+        }
+        else
+        {
+            printf("undefined");
+        }
+    }
+    else if(s[0]=='<')
+    {
+        if(sum==1)
+        {
+            if(s1[0]=='^')
+            {
+                printf("cw");
+            }
+            else
+            {
+                printf("ccw");
+            }
+        }
+        else if(sum==3)
+        {
+            if(s1[0]=='^')
+            {
+                printf("ccw");
+            }
+            else
+            {
+                printf("cw");
+            }
+        }
+        else
+        {
+            printf("undefined");
+        }
+    }
+    else
+    {
+        if(sum==1)
+        {
+            if(s1[0]=='>')
+            {
+                printf("ccw");
+            }
+            else
+            {
+                printf("cw");
+            }
+        }
+        else if(sum==3)
+        {
+            if(s1[0]=='>')
+            {
+                printf("cw");
+            }
+            else
+            {
+                printf("ccw");
+            }
+        }
+        else
+        {
+            printf("undefined");
+        }
+    }
+    return 0;
+}

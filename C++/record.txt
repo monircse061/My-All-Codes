@@ -1,0 +1,12 @@
+Player Name :@
+Played Date:Wed Aug 23 02:07:18 2017
+Score:0
+___________________________________________________
+Player Name :Werty
+Played Date:Wed Aug 23 02:09:06 2017
+Score:1
+___________________________________________________
+Player Name :Refat
+Played Date:Tue Aug 29 23:24:54 2017
+Score:1
+___________________________________________________
